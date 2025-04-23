@@ -1,0 +1,146 @@
+%%#! latex
+
+%%%%%%%%%%             Preamble                   %%%%%%%%%%
+
+\documentclass[12pt]{jarticle}
+\usepackage{amsfonts,amssymb,amsmath,amscd,amsthm,latexsym}
+\usepackage{graphicx}
+\usepackage{fancybox}
+\usepackage{okumacro}
+\usepackage{ulem}
+%\usepackage{color}
+%\usepackage{hyperref}
+%\usepackage{showkeys}
+%\usepackage{fancybox,ascmac}
+%\usepackage{fancyhdr}
+\pagestyle{empty}
+
+%%%%%%%%%%             Layout                     %%%%%%%%%%
+
+\setlength{\topmargin}{-1cm}
+\setlength{\textheight}{25cm}
+\setlength{\textwidth}{16.5cm}
+%\setlength{\oddsidemargin}{0cm}
+%\setlength{\evensidemargin}{0cm}
+%\addtolength{\textwidth}{.815in}
+\addtolength{\oddsidemargin}{-2cm}
+\addtolength{\evensidemargin}{-2cm}
+
+%%%%%%%%%%           Definition, Theorem, etc.     %%%%%%%%%%
+
+\newtheorem{thm}{定理}
+\newtheorem{lem}[thm]{補題}
+\newtheorem{prop}[thm]{命題}
+\newtheorem{claim}[thm]{主張}
+\newtheorem{cor}[thm]{系}
+\newtheorem{prob}[thm]{問題}
+\newtheorem{conj}[thm]{予想}
+\theoremstyle{definition}
+\newtheorem{dfn}[thm]{定義} 
+\newtheorem{ex}[thm]{例}
+\newtheorem{reidai}[thm]{例題}
+\newtheorem{rmk}[thm]{注意}
+
+%\numberwithin{thm}{section}
+%\numberwithin{equation}{section}
+
+%%%%%%%%%%             Macro (by Nasu)           %%%%%%%%%%
+
+\newcommand{\Proof}{\noindent {\bf 証明)}\ \ }
+\newcommand{\Hom}{\operatorname{Hom}}
+\newcommand{\Ext}{\operatorname{Ext}}
+\newcommand{\Spec}{\operatorname{Spec}}
+\newcommand{\Proj}{\operatorname{Proj}}
+\newcommand{\ob}{\operatorname{ob}}
+\newcommand{\Hilb}{\operatorname{Hilb}}
+\newcommand{\red}{\operatorname{red}}
+\newcommand{\im}{\operatorname{im}}
+\newcommand{\Bs}{\operatorname{Bs}}
+\newcommand{\Jac}{\operatorname{Jac}}
+\newcommand{\Pic}{\operatorname{Pic}}
+\newcommand{\coker}{\operatorname{coker}}
+\newcommand{\Gr}{\operatorname{Gr}}
+\newcommand{\Bl}{\operatorname{Bl}}
+%\newcommand{\algeeq}{\stackrel{alg.}{\; \sim \;}}
+\newcommand{\Rat}{\operatorname{Rat}}
+\newcommand{\Exc}{\operatorname{Exc}}
+\newcommand{\car}{\operatorname{char}}
+\newcommand{\Aut}{\operatorname{Aut}}
+\newcommand{\sat}{\operatorname{sat}}
+\newcommand{\pd}{\operatorname{dp}}
+\newcommand{\rank}{\operatorname{rank}}
+\newcommand{\Ann}{\operatorname{Ann}}
+
+\renewcommand{\theenumi}{\arabic{enumi}}
+\renewcommand{\theenumii}{\alph{enumii}}
+\renewcommand{\theenumiii}{\roman{enumiii}}
+\renewcommand{\labelenumi}{(\theenumi)}
+\renewcommand{\labelenumii}{(\theenumii)}
+\renewcommand{\labelenumiii}{[\theenumiii]}
+\renewcommand{\baselinestretch}{1.2}
+%\renewcommand{\abstractname}{\sc Abstract}
+
+%%%%%%%%%%           Commutative diagram          %%%%%%%%%%
+
+% A litte smaller diagram than AMS CD envrionment
+
+\newcommand{\mapright}[1]{%
+\smash{\mathop{%
+\hbox to 1cm{\rightarrowfill}}\limits^{#1}}}
+\newcommand{\mapleft}[1]{%
+\smash{\mathop{%
+\hbox to 1cm{\leftarrowfill}}\limits^{#1}}}
+\newcommand{\mapdown}[1]{\Big\downarrow
+\llap{$\vcenter{\hbox{$\scriptstyle#1\,$}}$ }}
+\newcommand{\mapup}[1]{\Big\uparrow
+\rlap{$\vcenter{\hbox{$\scriptstyle#1$}}$ }}
+
+%%%%%%%%%%              Title                    %%%%%%%%%%
+
+\title{}
+\author{}
+\date{}
+
+%%%%%%%%%%            Text Start                 %%%%%%%%%%
+
+\begin{document}
+
+%\maketitle
+
+\begin{center}
+ {\bf \Huge 東海大学理学部数学・情報数理談話会}
+\end{center}
+
+{\Large
+以下の要領において談話会を開催致します. 多数の方の御来聴を
+お待ち致しております. 
+
+\smallskip
+
+\begin{center}
+  \begin{tabular}{rl}
+    日程 & 2017年6月30日(金) 17:00 〜 18:00 \\
+    場所 & 東海大学湘南校舎18号館8階理学部ゼミ室3 (18-831)\\
+    講演者 & 佐藤弘康氏 (日本工業大学工学部)\\
+    タイトル & 確率測度の空間上の情報幾何と\\
+    & そのHadamard多様体の幾何への応用の試み
+  \end{tabular}
+\end{center}
+
+\noindent
+{\bf アブストラクト}:
+情報幾何学とは，パラメータ付けされた確率分布（または測度）の族の上の幾何学であり，情報理論や統計学の分野に応用されている．本講演では，まず有限次元パラメトリックモデルである指数型分布族を例に，その上の幾何構造がどのように定義され，また導出されるのか紹介する．
+
+そして，その幾何構造を確率分布全体のなす空間（ノンパラメトリックモデル）へ拡張し，理想境界上の確率測度の空間の幾何を用いて，ある種のHadamard多様体が特徴づけされること，および関連する話題について述べる．
+\vskip 2cm
+}
+\begin{flushright}
+  \begin{tabular}{rl}
+      世話人: & 那須弘和(理学部情報数理学科)\\
+      & nasu@tokai-u.jp (内線3642)
+  \end{tabular}
+
+\end{flushright}
+
+\end{document}
+
