@@ -1,0 +1,42 @@
+@charset "ISO-2022-JP";
+body       { background: #ffffff;
+             color: #000000;
+             margin-left: 10px;
+             margin-top: 5px;
+             margin-right: 10px;
+             padding-top: 0px;
+             font-family: Helvetica, arial, verdana, 'Hiragino Kaku Gothic Pro', 'ＭＳ Ｐゴシック', sans-serif;}
+a:link     { color: #008080; text-decoration: underline; }
+a:visited  { color: #008080; text-decoration: underline; }
+a:hover    { color: #ffffff; text-decoration: none; background: #008080; }
+/* ------------------------------
+hr         { border-top: 1px dotted gray;
+             width: 99%;}
+------------------------------ */
+hr         { height: 5px; width: 100%; background: #eeeeee; border: 0px; }
+p 	   { text-indent: 1em; }
+.ssg	   { font-size: x-small; color: #808080; }
+.rt        { text-align: right; vertical-align: top; }
+.lt        { text-align: left; vertical-align: top; }
+.box       { border: 1px solid #808080; border-collapse: collapse; }
+.ttl       { font-size: large; color: #000000; font-weight: bold; }
+.ttl-g     { font-size: large; color: #808080; font-weight: normal; }
+.sbttl     { font-size: normal; color: #000000; font-weight: bold; }
+.sbttl-g   { font-size: normal; color: #808080; }
+.c         { color: #000000; font-size: large; }
+.uline     { text-decoration: underline; text-underline-position: below; }
+.g         { color: #808080; }
+.sg        { font-size: small; color: #808080; }
+.ssg       { font-size: x-small; color: #808080; }
+.rt        { text-align: right; vertical-align: top; }
+.lt        { text-align: left; vertical-align: top; }
+.box       { border: 1px solid #808080; border-collapse: collapse; }
+.ttlt	   { background-color: #eeeeee; font-size: x-small; color: #808080; padding: 0px 0px 0px 2px; }
+.ttltt	   { width: 100%; border: 1px #cccccc solid; }
+.ttlttd	   { padding: 2px 4px 4px 4px; }
+.dot       { border-right: 1px dotted gray; }
+/* ------------------------------
+ Maxima
+------------------------------ */
+.prompt    { color: rgb(255,0,0); }
+.input     { color: rgb(0,0,255); }
