@@ -1,0 +1,96 @@
+(* Content-type: application/mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 6.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       145,          7]
+NotebookDataLength[      2499,         87]
+NotebookOptionsPosition[      2138,         70]
+NotebookOutlinePosition[      2514,         87]
+CellTagsIndexPosition[      2471,         84]
+WindowFrame->Normal
+ContainsDynamic->False*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[BoxData[
+ RowBox[{"Plot3D", "[", 
+  RowBox[{
+   RowBox[{
+    RowBox[{"x", "^", "2"}], "+", 
+    RowBox[{"y", "^", "2"}]}], ",", 
+   RowBox[{"{", 
+    RowBox[{"x", ",", 
+     RowBox[{"-", "2"}], ",", "2"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"y", ",", 
+     RowBox[{"-", "2"}], ",", "2"}], "}"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.4482660729969153`*^9, 3.4482661341359158`*^9}, {
+  3.4482685537729154`*^9, 3.4482685773239155`*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Plot3D", "[", 
+  RowBox[{
+   RowBox[{
+    SuperscriptBox["x", "2"], "-", 
+    SuperscriptBox["y", "2"]}], ",", 
+   RowBox[{"{", 
+    RowBox[{"x", ",", 
+     RowBox[{"-", "2"}], ",", "2"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"y", ",", 
+     RowBox[{"-", "2"}], ",", "2"}], "}"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.4482661429979153`*^9, 3.4482661467109156`*^9}, {
+  3.4482685470699153`*^9, 3.4482685492129154`*^9}, {3.448268581084915*^9, 
+  3.4482685815949154`*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Plot3D", "[", 
+  RowBox[{
+   RowBox[{
+    RowBox[{"Exp", "[", "x", "]"}], "*", 
+    RowBox[{"Sin", "[", "y", "]"}]}], ",", 
+   RowBox[{"{", 
+    RowBox[{"x", ",", 
+     RowBox[{"-", "2"}], ",", "2"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"y", ",", 
+     RowBox[{
+      RowBox[{"-", "2"}], "Pi"}], ",", 
+     RowBox[{"2", "Pi"}]}], "}"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.4482662156659155`*^9, 3.4482662187389154`*^9}, {
+  3.4482662600809155`*^9, 3.4482663598829155`*^9}, {3.4482665242439156`*^9, 
+  3.4482665508329153`*^9}, {3.4482685112959156`*^9, 3.448268524046915*^9}}]
+},
+WindowSize->{781, 871},
+WindowMargins->{{351, Automatic}, {Automatic, 77}},
+Magnification->1.5,
+FrontEndVersion->"6.0 for Microsoft Windows (32-bit) (2008\:5e745\:670821\
+\:65e5)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[568, 21, 449, 13, 43, "Input"],
+Cell[1020, 36, 502, 14, 48, "Input"],
+Cell[1525, 52, 609, 16, 43, "Input"]
+}
+]
+*)
+
+(* End of internal cache information *)
