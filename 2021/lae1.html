@@ -1,0 +1,221 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="ja">
+<head>
+<meta content="text/html; charset=UTF-8" http-equiv="content-type">
+<link rel="shortcut icon" href="../img/favicon.png" type="image/vnd.microsoft.icon" />
+<link rel="icon" href="../img/favicon.png" type="image/vnd.microsoft.icon" />
+<title>工科の線形代数１（担当：那須）</title>
+<link rel=stylesheet type="text/css" href="../hstyle-d.css">
+</head>
+<body>
+<span class="sg"><a href="../index.html">home</a> &#155; <a href="../teaching.html">educational activities</a> &#155; <a href="../teaching.html">current teaching </a> &#155; 2021 Spring</span>
+<br><br>
+<span class="ttl">工科の線形代数１</span> <span class="ttl-g">Linear Algebra for Engineering 1</span><br>
+<span class="sg">2021年度 春セメスター 月曜 3時限 (13:25-15:05) / Microsoft Teams / 工学部機械工学科 1セメ対象</span>
+<br><br>
+担　当：那須 弘和 (nasu [at] tokai-u.jp)<br>
+教員室：18号館7階 情報数理学科 第2研究室<br>
+<hr>
+<span class="sbttl">連絡事項</span>
+<table width="600" border="0" class="box" cellpadding="3">
+<tr>
+<td>
+<ul>
+ <li>この講義の仮ページを立ち上げました. (2/4)</li>
+ <li>本科目は遠隔授業(オンデマンド)で開講されます. <a href="https://teams.microsoft.com/">リンク</a>からTeamsアプリをダウンロード＆インストールし, <a href="https://tlms.tsc.u-tokai.ac.jp/">授業支援システム</a>からチームコードを取得の上, 本科目のチームに参加してください. サインインの仕方などTeams参加の詳細については授業支援システムのコースの案内を参照してください. (2/4)</li>
+<li><a href="https://web.microsoftstream.com/channel/b5f25448-edd7-4c43-a07f-bd903e077f2b">Microsoft Stream</a>上に本科目の講義動画を公開しました. 視聴にはT365のIDとPASSを用いたログインが必要です. (2/4)</li>
+<li><a href="./lae1/lae1_2021_schedule.pdf">講義スケジュールと教科書の範囲</a>をまとめました. (2/4)</li>
+<!--
+ <li>ガイダンス、および初回授業を行いました. (4/9)</li>
+ <li><font color="red">連休明けの次回講義（5/7）から教室が6A-308教室に変更</font>になります. 廊下を挟んで向いの教室です. (4/23)</li>
+ <li>6月4日(月)3限に中間試験を実施します. 
+     学生証を必ず持参してください. (5/17)</li>
+ <li>5月21日(月)は担当者出張のために代講（飯塚先生）となります. (5/21)</li>
+ <li>5月28日(月)に, 中間試験直前演習を実施します.
+     授業開始までに<a href="./lae1/test/prechukan_20210521.pdf">
+     中間試験直前演習</a>を解いておくようにしてください. 
+     この演習問題を用いて中間試験の為の準備を行います. (5/21)</li>
+ <li><a href="./lae1/test/chukan_20210604.pdf">中間試験</a>
+     を実施しました. 100点満点で平均は84.0点でした. (6/4)</li>
+ <li>7月16日(月)3限に期末試験を実施します. 
+     学生証を必ず持参してください. (6/25)</li>
+ <li>7月9日(月)に, <a href="./lae1/test/prekimatsu_20210709.pdf">期末試験直前演習</a>
+     を実施します. 授業開始までに解いておくようにしてください. 
+     この演習問題を用いて試験の為の準備を行います. (7/2)</li>
+ <li> <a href="./lae1/test/kimatsu_20210716.pdf">期末試験</a>を実施しました. 平均は78.4点で良くできていました. (7/16)</li>
+<li>この授業は終了しました. (7/23)</li>
+-->
+</ul>
+</td>
+<td>　</td>
+</tr>
+</table>
+<br>
+<span class="sbttl">授業の記録, または予定</span> 
+<br>
+<table 
+ style="width: 88%; text-align: left; margin-left: auto; margin-right: auto;"
+ border="0" cellpadding="1" cellspacing="0"> 
+ <tbody> 
+ <tr valign="top"> 
+  <td style="width: 120px; text-align: left; vertical-align: top;">
+   4月12日(月)
+  </td>
+  <td>ベクトル，内積と外積 (第１章  ベクトルとその演算(pp.1--8,13,14)) 
+   <span class="sg">
+   ( <a href="./lae1/enshu/lae1_exercise1.pdf">演習問題</a> )
+   </span>
+  </td> 
+ </tr>
+ <tr valign="top">
+  <td>4月19日(月)</td>	
+  <td>直線と平面の方程式 (第２章  直線の方程式，平面の方程式(pp.9--16)) 
+   <span class="sg">
+   ( <a href="./lae1/enshu/lae1_exercise2.pdf">演習問題</a> )
+   </span>
+  </td>	
+ </tr>
+ <tr valign="top">
+  <td>4月26日(月)</td>	
+  <td>行列とその演算 (第３章  行列と行列の演算(pp.17--28)) 
+   <span class="sg">
+   ( <a href="./lae1/enshu/lae1_exercise3.pdf">演習問題</a> )
+   </span>
+  </td>	
+ </tr>
+ <tr valign="top">
+  <td>5月10日(月)</td>	
+  <td>連立方程式と基本変形 (第４章  連立１次方程式の解法(pp.29--38))
+   <span class="sg">
+   ( <a href="./lae1/enshu/lae1_exercise4.pdf">演習問題</a> )
+   </span>
+  </td>	
+ </tr>
+ <tr valign="top">
+  <td>5月17日(月)</td>	
+  <td>連立方程式の一般解 (第４章  連立１次方程式の解法(pp.39--45)) 
+   <span class="sg">
+   ( <a href="./lae1/enshu/lae1_exercise5.pdf">演習問題</a> )
+   </span>
+  </td>	
+ </tr>
+ <tr valign="top">
+  <td>5月24日(月)</td>	
+  <td>中間レポート準備演習
+   <span class="sg">
+   ( 準備問題 )
+   </span>
+  </td>	
+ </tr>
+ <tr valign="top">
+  <td>5月31日(月)</td>	
+  <td>中間レポート
+   <span class="sg">
+   ( 問題 )
+   </span>
+  </td>	
+ </tr>
+ <tr valign="top">
+  <td>6月7日(月)</td>	
+  <td>掃き出し法と行列の階数 (第５章  行列の階数(ランク)(pp.45--60)) 
+   <span class="sg">
+   ( <a href="./lae1/enshu/lae1_exercise6.pdf">演習問題</a> )
+   </span>
+  </td>	
+ </tr>
+ <tr valign="top">
+  <td>6月14日(月)</td>	
+  <td>逆行列 (第６章  逆行列(pp.61--70))
+   <span class="sg">
+   ( <a href="./lae1/enshu/lae1_exercise7.pdf">演習問題</a> )
+   </span>
+  </td>	
+ </tr>
+ <tr valign="top">
+  <td>6月21日(月)</td>	
+  <td>2次行列式と固有方程式 (第７章  行列式(pp.73,74,78,80--83,120))
+   <span class="sg">
+   ( <a href="./lae1/enshu/lae1_exercise8.pdf">演習問題</a> )
+   </span>
+  </td>	
+ </tr>
+ <tr valign="top">
+  <td>6月28日(月)</td>	
+  <td>2次行列の固有値・固有ベクトル (第12章  行列の対角化(pp.117--120))
+   <span class="sg">
+   ( <a href="./lae1/enshu/lae1_exercise9.pdf">演習問題</a> )
+   </span>
+  </td>	
+ </tr>
+ <tr valign="top">
+  <td>7月5日(月)</td>	
+  <td>2次行列の対角化とべき乗(第12章　行列の対角化(pp.117--118))
+   <span class="sg">
+   ( <a href="./lae1/enshu/lae1_exercise10.pdf">演習問題</a> )
+   </span>
+  </td>	
+ </tr>
+ <tr valign="top">
+  <td>7月12日(月)</td>	
+  <td>期末レポート準備演習
+   <span class="sg">
+   ( 準備問題 )
+   </span>
+  </td>	
+ </tr>
+ <tr valign="top">
+  <td>7月19日(月)</td>	
+  <td>期末レポート
+   <span class="sg">
+   ( 問題 )
+   </span>
+  </td>	
+ </tr>
+ </tbody>
+</table>
+<hr>
+<span class="sbttl">授業概要</span>
+<br>
+　本授業では、工学の専門科目を学習する上で不可欠な、線形代数の基礎的概念について学びます。<br>
+　最初に学ぶベクトルを用いると、点、直線、平面などが表せるだけでなく、位置，速度，加速度などの様々な物理量も表現できます。また、ベクトルの内積や外積によって、空間内の直線の方程式と平面の方程式が表示できます。<br>
+　行列とその演算を導入することにより，表計算が簡単に表せる、連立一次方程式が機械的に解ける、といった利点が得られます。そのために必要な概念には、階段行列、基本変形、掃き出し法などがあります。また、連立一次方程式の解の個数は、行列の階数で判定できます。逆行列は，逆数の行列版と言うべきもので，右辺の値だけが異なる複数の連立一次方程式は，逆行列を一度求めることで簡単に解が求められるなどの利点があります。<br>
+　最後に固有値、固有ベクトルについて学びます。行列の固有値、固有ベクトルを求めることは理論的にも応用上も重要です。<br>
+　授業では、計算手順とその意味を重点的に説明し、例題や問題を通じてそれらの意味を正確に理解することを目指します。その結果、線形代数の基礎的知識･考え方を身につけることが目標です。<br>
+学生諸君は例題や問題を解くことによって理解を深めてください。そのためには復習は欠かせないものとなります。講義の前にテキストとシラバスを見て、授業のポイントを押さえてください。
+<br><br>
+
+<span class="sbttl">学習の到達目標</span>
+<ul>
+<li>ベクトルと、直線や平面の方程式を理解する。</li>
+<li>行列とその演算、とくに行列の積の計算を理解する。</li>
+<li>連立一次方程式の解法を理解する。</li>
+<li>逆行列の求め方を理解する。</li>
+<li>固有値，固有ベクトルと対角化を理解する。</li>
+</ul>
+<br>
+
+<span class="sbttl">教科書</span>
+<br>
+「スマート解法 線形代数」志村真帆呂著、プレアデス出版
+<br><br>
+
+<span class="sbttl">評価方法</span>
+<br>
+中間レポートと期末レポートをそれぞれ50％, 50％の割合で評価する. 到達度90％以上でS, 80％以上でA, 70％以上でB, 60％以上でC, 60％未満はEとする. レポートを提出しない場合には「/」とする. 
+<!--
+または出席回数が2/3に満たない場合
+-->
+<!--
+中間試験4割、期末試験6割。到達度90％以上でS、80％以上でA、70％以上でB、60％以上でC、60％未満はEとします。ただし、出席回数が授業回数の2/3に満たない場合は/とします。
+-->
+<br><br>
+
+<span class="sbttl">質問への対応</span>
+<br>
+授業中や授業の前後が望ましいが、教員室に在室中は随時応じます。
+<br>
+
+<hr>
+<span class="sg"><a href="./lae1.html">top</a></span>
+</body>
+</html>
