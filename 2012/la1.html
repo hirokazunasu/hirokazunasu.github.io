@@ -1,0 +1,359 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="ja">
+<head>
+<meta content="text/html; charset=UTF-8" http-equiv="content-type">
+<link rel="shortcut icon" href="../img/favicon.png" type="image/vnd.microsoft.icon" />
+<link rel="icon" href="../img/favicon.png" type="image/vnd.microsoft.icon" />
+<title>線形代数１（担当：那須）</title>
+<link rel=stylesheet type="text/css" href="../hstyle-d.css">
+</head>
+<body>
+<span class="sg"><a href="../index.html">home</a> &#155; <a href="../teaching.html">educational activities</a> &#155; <a href="../teaching.html">current teaching </a> &#155; 2012 spring</span>
+<br><br>
+<span class="ttl">線形代数１</span> <span class="ttl-g">Linear Algebra 1</span><br>
+<span class="sg">2012年度 春セメスター 月曜・木曜 2時限 (11:05-12:35) / 教室：6A-114教室 / 情報数理学科 1セメ対象</span>
+<br><br>
+担　当：那須 弘和 (nasu [at] tokai-u.jp)<br>
+教員室：5号館 情報数理学科 第2研究室<br>
+<hr>
+<span class="sbttl">連絡事項</span>
+<table width="600" border="0" class="box" cellpadding="3">
+<tr>
+<td>
+<ul>
+<li>この講義の仮ページを立ち上げました. (4/5)</li>
+<li>6月4日(月)に<a href="./la1/oshirase/chukan.pdf">中間テスト</a>を実施します. (5/24)</li>
+<li>中間テスト<a href="./la1/test/junbi_20120528.pdf">準備問題</a>を配布しました. <br><b>5月31日(木)の講義までに解いてくること</b>. (5/28)</li>
+<li><a href="./la1/test/chukan_20120604.pdf">中間テスト</a>を実施しました. (6/4)</li>
+<li>中間テストを返却しました. (6/7)</li>
+<li><a href="./la1/report/report_20120625.pdf">第1回レポート問題</a>を出題しました. <br><b>6月28日(木)の講義までに解いてくること.</b> (6/25)</li>
+<li>7月23日(月)に<a href="./la1/oshirase/kimatsu.pdf">期末テスト</a>を実施します. (7/9)</li>
+<li>期末テスト<a href="./la1/test/junbi_20120716.pdf">準備問題１</a>を配布しました. <br><b>7月16日(月)の講義までに解いてくること</b>. (7/12)</li>
+<li>期末テスト<a href="./la1/test/junbi_20120719.pdf">準備問題２</a>を配布しました. <br><b>7月19日(木)の講義までに解いてくること</b>. (7/16)</li>
+<li><a href="./la1/test/kimatsu_20120723.pdf">期末テスト</a>を実施しました. 答案返却を希望する学生は7/30(月)の2限に研究室まで来て下さい. (7/23)</li>
+<li>この授業は終了しました. (7/23)</li>
+</ul>
+</td>
+<td>　</td>
+</tr>
+</table>
+<br>
+<span class="sbttl">授業の記録, または予定</span> 
+<span class="sg">配布物のダウンロード</span><br> 
+<br>
+<table 
+ style="width: 88%; text-align: left; margin-left: auto; margin-right: auto;"
+ border="0" cellpadding="1" cellspacing="0"> 
+ <tbody> 
+ <tr valign="top"> 
+  <td style="width: 120px; text-align: left; vertical-align: top;">
+   4月9日(月)
+  </td>
+  <td>ガイダンス, 複素数の四則演算</td> 
+ </tr>
+ <tr valign="top"> 
+  <td>4月12日(木)</td> 
+  <td>複素平面と極形式
+   <span class="sg">
+   <a href="./la1/minitest/ex_20120412.pdf">小テスト</a>
+   (<a href="./la1/minitest/ans_20120412.pdf">解答</a>)
+   </span>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td>4月16日(月)</td>
+  <td>ド・モアブルの公式と複素数のべき乗
+   <span class="sg">
+   <a href="./la1/minitest/ex_20120416.pdf">小テスト</a>
+   (<a href="./la1/minitest/ans_20120416.pdf">解答</a>)
+   </span>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td>4月19日(木)</td>	
+  <td>行列の用語と基本演算
+   <span class="sg">
+   <a href="./la1/minitest/ex_20120419.pdf">小テスト</a>
+   (<a href="./la1/minitest/ans_20120419.pdf">解答</a>)
+   </span>
+  </td>	
+ </tr>
+ <tr valign="top">
+  <td>4月23日(月)</td>	
+  <td>行列の積, ケーリー・ハミルトンの公式
+   <span class="sg">
+   <a href="./la1/minitest/ex_20120423.pdf">小テスト</a>
+   (<a href="./la1/minitest/ans_20120423.pdf">解答</a>)
+   </span>
+  </td>	
+ </tr>
+ <tr valign="top">
+  <td>4月26日(木)</td>
+  <td>連立一次方程式と(拡大)係数行列, 基本変形の導入
+   <span class="sg">
+   <a href="./la1/minitest/ex_20120426.pdf">小テスト</a>
+   (<a href="./la1/minitest/ans_20120426.pdf">解答</a>)
+   </span>
+  </td>	
+ </tr>
+ <tr valign="top">
+  <td>5月7日(月)</td>	
+  <td>基本変形(定義)と連立1次方程式
+   <span class="sg">
+   <a href="./la1/minitest/ex_20120507.pdf">小テスト</a>
+   (<a href="./la1/minitest/ans_20120507.pdf">解答</a>)
+   </span>
+  </td>	
+ </tr>
+ <tr valign="top">
+  <td>5月10日(木)</td>
+  <td>階段行列, 一次方程式とパラメータ
+   <span class="sg">
+   <a href="./la1/minitest/ex_20120510.pdf">小テスト</a>
+   (<a href="./la1/minitest/ans_20120510.pdf">解答</a>)
+   </span>
+  </td>	
+ </tr>
+ <tr valign="top">
+  <td>5月14日(月)</td>
+  <td>階段行列と連立方程式（解が簡単に求まる場合）
+   <span class="sg">
+   <a href="./la1/minitest/ex_20120514.pdf">小テスト</a>
+   (<a href="./la1/minitest/ans_20120514.pdf">解答</a>)
+   </span>
+  </td>	
+ </tr>
+ <tr valign="top">
+  <td>5月17日(木)</td>
+  <td>階段行列への基本変形(前進消去)と後退代入
+   <span class="sg">
+   <a href="./la1/minitest/ex_20120517.pdf">小テスト</a>
+   (<a href="./la1/minitest/ans_20120517.pdf">解答</a>)
+   </span>
+  </td>	
+ </tr>
+ <tr valign="top">
+  <td>5月21日(月)</td>
+  <td>行列の階数と解の存在条件
+   <span class="sg">
+   <a href="./la1/minitest/ex_20120521.pdf">小テスト</a>
+   (<a href="./la1/minitest/ans_20120521.pdf">解答</a>)
+   </span>
+  </td>	
+ </tr>
+ <tr valign="top">
+  <td>5月24日(木)</td>
+  <td>基本変形と基本行列
+   <span class="sg">
+   <a href="./la1/minitest/ex_20120524.pdf">小テスト</a>
+   (<a href="./la1/minitest/ans_20120524.pdf">解答</a>)
+   </span>
+  </td>	
+ </tr>
+ <tr valign="top">
+  <td>5月28日(月)</td>
+  <td>正則行列と逆行列
+   <span class="sg">
+   <a href="./la1/minitest/ex_20120528.pdf">小テスト</a>
+   (<a href="./la1/minitest/ans_20120528.pdf">解答</a>)
+   </span>
+  </td>	
+ </tr>
+ <tr valign="top">
+  <td>5月31日(木)</td>
+  <td>演習
+   <span class="sg">
+   ( <a href="./la1/test/junbi_20120528.pdf">準備問題</a> |
+   解答 )
+   </span>
+  </td>	
+ </tr>
+ <tr valign="top">
+  <td>6月4日(月)</td>
+  <td>中間テスト
+   <span class="sg">
+   ( <a href="./la1/oshirase/chukan.pdf">掲示</a> |
+   <a href="./la1/test/chukan_20120604.pdf">問題</a> |
+   <a href="./la1/test/kaito_20120604.pdf">解答</a> )
+   </span>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td>6月7日(木)</td>
+  <td>行列式の導入(2次または3次の行列式), 中間テスト返却
+   <span class="sg">
+   小テストなし
+   </span>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td>6月11日(月)</td>
+  <td>行列式の線形性・交代性・正規性
+   <span class="sg">
+   <a href="./la1/minitest/ex_20120611.pdf">小テスト</a>
+   (<a href="./la1/minitest/ans_20120611.pdf">解答</a>)
+   </span>
+  </td>	
+ </tr>
+ <tr valign="top">
+  <td>6月14日(木)</td>
+  <td>一般の行列式とサラスの公式, 文字係数の行列式
+   <span class="sg">
+   <a href="./la1/minitest/ex_20120614.pdf">小テスト</a>
+   (<a href="./la1/minitest/ans_20120614.pdf">解答</a>)
+   </span>
+  </td>	
+ </tr>
+ <tr valign="top">
+  <td>6月18日(月)</td>
+  <td>行列の転置と行列式の列基本変形
+   <span class="sg">
+   <a href="./la1/minitest/ex_20120618.pdf">小テスト</a>
+   (<a href="./la1/minitest/ans_20120618.pdf">解答</a>)
+   </span>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td>6月21日(木)</td>
+  <td>置換とあみだくじ
+   <span class="sg">
+   <a href="./la1/minitest/ex_20120621.pdf">小テスト</a>
+   (<a href="./la1/minitest/ans_20120621.pdf">解答</a>)
+   </span>
+  </td>	
+ </tr>
+ <tr valign="top">
+  <td>6月25日(月)</td>
+  <td>行列式の定義式(置換を用いた)
+   <span class="sg">
+   <a href="./la1/minitest/ex_20120625.pdf">小テスト</a>
+   (<a href="./la1/minitest/ans_20120625.pdf">解答</a>)
+   </span><br>
+   第1回レポート問題出題
+   <span class="sg">
+   ( <a href="./la1/report/report_20120625.pdf">問題</a> | 解答 )
+   </span>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td>6月28日(木)</td>
+  <td>サラスの公式の証明, 小行列式と余因子(導入)
+   <span class="sg">
+   <a href="./la1/minitest/ex_20120628.pdf">小テスト</a>
+   (<a href="./la1/minitest/ans_20120628.pdf">解答</a>)
+   </span>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td>7月2日(月)</td>
+  <td>行列式の余因子展開
+   <span class="sg">
+   <a href="./la1/minitest/ex_20120702.pdf">小テスト</a>
+   (<a href="./la1/minitest/ans_20120702.pdf">解答</a>)
+   </span>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td>7月5日(木)</td>
+  <td>余因子行列と逆行列
+   <span class="sg">
+   <a href="./la1/minitest/ex_20120705.pdf">小テスト</a>
+   (<a href="./la1/minitest/ans_20120705.pdf">解答</a>)
+   </span>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td>7月9日(月)</td>
+  <td>行列の積と行列式
+   <span class="sg">
+   <a href="./la1/minitest/ex_20120709.pdf">小テスト</a>
+   (<a href="./la1/minitest/ans_20120709.pdf">解答</a>)
+   </span>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td>7月12日(木)</td>
+  <td>行列式の計算(復習)
+   <span class="sg">
+   <a href="./la1/minitest/ex_20120712.pdf">小テスト</a>
+   (<a href="./la1/minitest/ans_20120712.pdf">解答</a>)
+   </span>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td>7月16日(月)</td>
+  <td>期末テスト準備１
+   <span class="sg">
+   <a href="./la1/test/junbi_20120716.pdf">準備問題１</a>
+   </span>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td>7月19日(木)</td>
+  <td>期末テスト準備２
+   <span class="sg">
+   <a href="./la1/test/junbi_20120719.pdf">準備問題２</a>
+   </span>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td>7月23日(月)</td>
+  <td>期末テスト
+   <span class="sg">
+   ( <a href="./la1/oshirase/kimatsu.pdf">掲示</a> |
+   <a href="./la1/test/kimatsu_20120723.pdf">問題</a> | 
+   <a href="./la1/test/kaito_20120723.pdf">解答</a> )
+   </span>
+  </td>
+ </tr>
+ </tbody>
+</table>
+<hr>
+<span class="sbttl">授業概要</span>
+<br>
+線形代数は, 自然科学の分野における最も基本的で有用な数学の一つです. 
+わかりやすくて論理的な計算手順が多く, しかも適度な計算力を必要とするため, 
+継続的な学習習慣を身に付けるとともに柔軟な思考の育成を行います. 
+また, 具体的な計算だけでなく背後にある線形空間を意識することにより, 
+抽象的な思考や, 大きな枠組みで物事を捉える訓練も行っていきます. 
+
+線形代数1では, 行列, 連立一次方程式, 逆行列, 
+行列式などの基礎を習得することを目標とします. 
+講義とともに, 演習によって線形代数の理解がより深められ, 
+様々な分野へ応用していく力を育成します. 
+<br><br>
+
+<span class="sbttl">教科書</span>
+<ul>
+<li>「スマート解法　線形代数演習帳」志村真帆呂(著) プレアデス出版</li>
+<li>「基礎線形代数 1998年版」基礎数学研究会(著) 東海大学出版会</li>
+</ul>
+
+<span class="sbttl">評価方法</span>
+<br>
+小テスト, 中間テスト, 期末試験により評価されます. 
+その他の課題(レポートなど)が出されることもありますが, 
+評価は小テストに準じます. 
+<br><br>
+
+<span class="sbttl">授業の進め方</span>
+<br>
+毎回授業の始めに前回の授業の内容を復習し, 
+理解度をチェックする為に簡単な小テストを実施します. 
+小テストの答案の提出により出席を確認します. 
+<br><br>
+
+<span class="sbttl">質問への対応</span>
+<br>
+授業中や授業の前後が望ましいが, 教員室に在室中は随時応じます. 
+<br><br>
+
+<span class="sbttl">学生へのメッセージ</span>
+<br>
+授業を受け身に聞くのではなく, 予習・復習をすること. 計算が正確に出来るよう
+自分で練習問題を多く解くことを心がけて下さい. 
+<br>
+<hr>
+<span class="sg"><a href="./la1.html">top</a></span>
+</body>
+</html>

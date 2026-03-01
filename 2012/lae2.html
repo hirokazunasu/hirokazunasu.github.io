@@ -1,0 +1,271 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="ja">
+<head>
+<meta content="text/html; charset=UTF-8" http-equiv="content-type">
+<link rel="shortcut icon" href="../img/favicon.png" type="image/vnd.microsoft.icon" />
+<link rel="icon" href="../img/favicon.png" type="image/vnd.microsoft.icon" />
+<title>工科の線形代数２／線形代数２（担当：那須）</title>
+<link rel=stylesheet type="text/css" href="../hstyle-d.css">
+</head>
+<body>
+<span class="sg"><a href="../index.html">home</a> &#155; <a href="../teaching.html">educational activities</a> &#155; <a href="../teaching.html">current teaching </a> &#155; 2012 Fall</span>
+<br><br>
+<span class="ttl">工科の線形代数２／線形代数２</span> <span class="ttl-g">Linear Algebra for Engineering or Information Scienece 2</span><br>
+<span class="sg">2012年度 秋セメスター<br>
+木曜2時限 (11:05-12:35) 工学部 光・画像工学科 2セメ対象<br>
+木曜3時限 (13:25-14:55) 理工学部・情報科学科 2セメ対象<br>
+教室：両時限ともに 6A-216教室
+</span>
+<br><br>
+担　当：那須 弘和 (nasu [at] tokai-u.jp)<br>
+教員室：5号館 情報数理学科 第2研究室<br>
+<hr>
+<span class="sbttl">連絡事項</span>
+<table width="600" border="0" class="box" cellpadding="3">
+<tr>
+<td>
+<ul>
+ <li> この講義の仮ページを立ち上げました. (9/20)</li>
+ <li> 建学祭期間中の為に, 11/1の講義はありません. (10/25)</li>
+ <li> <a href="./lae2/enshu/lae2_ex04.pdf">第4回演習問題</a>を
+      レポートとして出題します. 
+      次回講義(11/8)までに各自で解いて, <b>講義開始時</b>に提出して下さい. 
+      遅れて提出されたレポートは(いかなる理由があろうと)
+      <b>受け付けない</b>ので十分に注意してください(10/25)</li>
+ <li> 11/22(木)に中間試験
+      <span class="sg">
+      ( <a href="./lae2/oshirase/chukan1.pdf">光・画像工学科</a> |
+      <a href="./lae2/oshirase/chukan2.pdf">情報科学科</a> )
+      </span>   
+      を実施します. 授業で配布した
+      <a href="./lae2/test/lae2_prechukan.pdf">準備問題</a>を
+      参考にテスト準備をしてください. (11/8)</li>
+ <li>中間試験を実施しました
+      <span class="sg">
+      ( <a href="./lae2/test/lae2_chukan_ef.pdf">光・画像工学科</a> |
+      <a href="./lae2/test/lae2_chukan_di.pdf">情報科学科</a> ).
+      </span><br> 
+      平均点は68.4点(光・画像)、79.8点(情報科学)でした.
+      11/29(木)の授業中に返却を予定しています. (11/22)</li>
+ <li>中間試験を返却しました. (11/29)</li>
+ <li>1/24(木)に期末試験
+      <span class="sg">
+      ( <a href="./lae2/oshirase/kimatsu_ef.pdf">光・画像工学科</a> |
+      <a href="./lae2/oshirase/kimatsu_di.pdf">情報科学科</a> )
+      </span>   
+      を実施します. 授業で配布した準備問題
+      <span class="sg">
+      ( <a href="./lae2/test/lae2_prekimatsu_ef.pdf">光・画像工学科</a> |
+      <a href="./lae2/test/lae2_prekimatsu_di.pdf">情報科学科</a> )
+      </span>   
+      参考にテスト準備をしてください. (1/10)</li>
+ <li>期末試験を実施しました.
+      <span class="sg">
+      ( <a href="./lae2/test/lae2_kimatsu_ef.pdf">光・画像工学科</a> |
+      <a href="./lae2/test/lae2_kimatsu_di.pdf">情報科学科</a> ).
+      </span><br> 
+      平均点は71.4点(光・画像)、65.7点(情報科学)でした. (1/24)</li>
+ <li><font size="3" color="#ff0000">インフルエンザで期末試験を欠席した学生は, 追試の日程調整の為に, 至急（！）担当教員にメールで連絡を下さい</font>. (1/25)</li>
+ <li>この授業は終了しました. (1/25)</li>
+</ul>
+</td>
+ <td></td>
+</tr>
+</table>
+<br>
+<span class="sbttl">授業の記録, または予定</span> 
+<span class="sg">配布物のダウンロード</span><br> 
+<br>
+<table 
+ style="width: 88%; text-align: left; margin-left: auto; margin-right: auto;"
+ border="0" cellpadding="1" cellspacing="0"> 
+ <tbody> 
+ <tr valign="top"> 
+  <td style="width: 120px; text-align: left; vertical-align: top;">
+   9月27日(木)
+  </td>
+  <td>ガイダンス, 線形代数1の復習
+   <span class="sg">
+   ( <a href="./lae2/enshu/lae2_kakunin.pdf">演習問題</a> )
+   </span>   
+  </td> 
+ </tr>
+ <tr valign="top"> 
+  <td>10月4日(木)</td> 
+  <td>行列式の定義と2次、3次の行列式の計算
+   <span class="sg">
+   ( <a href="./lae2/enshu/lae2_ex01.pdf">演習問題</a> )
+   </span>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td>10月11日(木)</td> 
+  <td>行列式の基本性質
+   <span class="sg">
+   ( <a href="./lae2/enshu/lae2_ex02.pdf">演習問題</a> )
+   </span>
+  </td>
+ </tr>
+ <tr valign="top"> 
+  <td>10月18日(木)</td> 
+  <td>行列式の計算
+   <span class="sg">
+   ( <a href="./lae2/enshu/lae2_ex03.pdf">演習問題</a> )
+   </span>
+  </td>
+ </tr>
+ <tr valign="top"> 
+  <td>10月25日(木)</td> 
+  <td>余因子展開
+   <span class="sg">
+   ( <a href="./lae2/enshu/lae2_ex04.pdf">演習問題</a> )
+   </span>
+  </td>
+ </tr>
+ <tr valign="top"> 
+  <td>11月8日(木)</td> 
+  <td>逆行列
+   <span class="sg">
+   ( <a href="./lae2/enshu/lae2_ex05.pdf">演習問題</a> )
+   </span>
+  </td>
+ </tr>
+ <tr valign="top"> 
+  <td>11月15日(木)</td> 
+  <td>演習・クラーメルの公式
+   <span class="sg">
+   ( <a href="./lae2/test/lae2_prechukan.pdf">中間試験準備問題</a> )
+   </span>
+  </td>
+ </tr>
+ <tr valign="top"> 
+  <td>11月22日(木)</td> 
+  <td>中間試験
+   <span class="sg">問題
+   ( <a href="./lae2/test/lae2_chukan_ef.pdf">光・画像工学科</a> |
+   <a href="./lae2/test/lae2_chukan_di.pdf">情報科学科</a> )
+   </span>
+  </td>
+ </tr>
+ <tr valign="top"> 
+  <td>11月29日(木)</td> 
+  <td>同次連立1次方程式
+   <span class="sg">
+   ( <a href="./lae2/enshu/lae2_ex06.pdf">演習問題</a> )
+   </span>
+  </tr>
+ <tr valign="top"> 
+  <td>12月6日(木)</td> 
+  <td>固有値と固有ベクトル１
+   <span class="sg">
+   ( <a href="./lae2/enshu/lae2_ex07.pdf">演習問題</a> )
+   </span>
+  </td>
+ </tr>
+ <tr valign="top"> 
+  <td>12月13日(木)</td> 
+  <td>固有値と固有ベクトル２
+   <span class="sg">
+   ( <a href="./lae2/enshu/lae2_ex08.pdf">演習問題</a> )
+   </span>
+  </td>
+ </tr>
+ <tr valign="top"> 
+  <td>12月20日(木)</td> 
+  <td>ケーリー・ハミルトンの定理・行列の対角化１
+   <span class="sg">
+   ( <a href="./lae2/enshu/lae2_ex09.pdf">演習問題</a> )
+   </span>
+  </td>
+ </tr>
+ <tr valign="top"> 
+  <td>1月10日(木)</td> 
+  <td>行列の対角化２
+   <span class="sg">
+   ( <a href="./lae2/enshu/lae2_ex10.pdf">演習問題</a> )
+   </span>
+  </td>
+ </tr>
+ <tr valign="top"> 
+  <td>1月17日(木)</td> 
+  <td>期末試験準備
+   <span class="sg">
+   準備問題
+   ( <a href="./lae2/test/lae2_prekimatsu_ef.pdf">光・画像工学科</a> |
+   <a href="./lae2/test/lae2_prekimatsu_di.pdf">情報科学科</a> )
+   </span>
+  </td>
+ </tr>
+ <tr valign="top"> 
+  <td>1月24日(木)</td> 
+  <td>期末試験
+    <span class="sg">
+      問題
+      ( <a href="./lae2/test/lae2_kimatsu_ef.pdf">光・画像工学科</a> |
+      <a href="./lae2/test/lae2_kimatsu_di.pdf">情報科学科</a> )
+    </span>
+  </td>
+ </tr>
+ </tbody>
+</table>
+<hr>
+<span class="sbttl">授業概要(シラバスより引用)</span>
+<br>
+工科の線形代数１（線形代数１）に続き、行列について学びます。<br>
+<br>
+まず行列式とその基本性質および余因子展開定理を学びます。
+その応用として、与えられた正方行列が正則行列であるためには、
+その行列の行列式が０でないことが必要十分条件であるという
+基本定理を理解することができます。また、連立一次方程式の解を
+与えるクラーメルの公式について学びます。<br>
+<br>
+次に固有値、固有ベクトルについて学びます。
+固有値、固有ベクトルを求めることは応用上重要であります。
+連立一次方程式の場合だけでなく、固有値問題は線形微分方程式の場合にも現れ、
+物理や工学において基本的な問題であります。最後に行列の対角化について触れます。<br>
+<br>
+授業では、基本概念や基本定理を丁寧に説明し、
+例題や問題を通じてそれらの意味を正確に理解することを目指します。
+その結果、線形代数の基礎的知識･考え方を身につけることが目標です。
+学生諸君は例題や問題を解くことによって理解を深めてください。
+そのためには復習は欠かせないものとなります。講義の前にテキストとシラバスを見て、
+授業のポイントを押さえてください。
+<br><br>
+
+<span class="sbttl">学習の到達目標(シラバスより引用)</span>
+<ol>
+ <li> 行列式を理解する。
+ <li> 固有値を理解する。
+ <li> 固有ベクトルを理解する。
+ <li> 対角化を理解する。
+</ol>
+<span class="sbttl">教科書</span>
+<br>
+「基礎線形代数」基礎数学研究会編　東海大学出版(１９９８年第一版発行)
+<br><br>
+
+<span class="sbttl">評価方法</span>
+<br>
+中間テストで、到達目標（１）の到達度を全体の４割として評価し、
+定期試験で、到達目標（２）、（３）、（４）の到達度を全体の
+６割として合わせて評価します。到達度90%以上でS、80%以上でA、70%以上でB、
+60%以上でC、60%未満はEとします。
+ただし、出席回数が授業回数の３分の２に満たない場合には ／ とします。
+<br><br>
+
+<span class="sbttl">質問への対応</span>
+<br>
+質問は随時受け付けますので、授業開始前や終了時に相談してください。
+また、オフィスアワーを利用して下さい。
+<br><br>
+
+<span class="sbttl">コメント</span>
+<br>
+数学的知識を講義のみで十分に養うことは難しいので、
+理解を深めるためには、予習・復習はもとより、自ら演習問題
+に取り組み、じっくり考えることが最良かつ不可欠です。
+<br>
+<hr>
+<span class="sg"><a href="./lae2.html">top</a></span>
+</body>
+</html>
