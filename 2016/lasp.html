@@ -1,0 +1,340 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="ja">
+<head>
+<meta content="text/html; charset=UTF-8" http-equiv="content-type">
+<link rel="shortcut icon" href="../img/favicon.png" type="image/vnd.microsoft.icon" />
+<link rel="icon" href="../img/favicon.png" type="image/vnd.microsoft.icon" />
+<title>線形代数（担当：那須）</title>
+<link rel=stylesheet type="text/css" href="../hstyle-d.css">
+</head>
+<body>
+<span class="sg"><a href="../index.html">home</a> &#155; <a href="../teaching.html">educational activities</a> &#155; <a href="../teaching.html">current teaching </a> &#155; 2016 fall</span>
+<br><br>
+<span class="ttl">線形代数(SP)</span> <span class="ttl-g">Linear Algebra (SP)</span><br>
+<span class="sg">2016年度 秋セメスター 月曜・木曜 4時限 (15:10-16:40) / 教室：6A-203教室 / 理学部物理学科 2セメ対象</span>
+<br><br>
+担　当：那須 弘和 (nasu [at] tokai-u.jp)<br>
+教員室：18号館708室 情報数理第2研究室<br>
+<hr>
+<span class="sbttl">連絡事項</span>
+<table width="600" border="0" class="box" cellpadding="3">
+<tr>
+<td>
+<ul>
+<li>この講義の仮ページを立ち上げました. (8/3)</li>
+<li>初回授業(ガイダンス)を行いました. (9/22)</li>
+<li>教科書が学内の書店にて品切れのようです. 書店によれば, 10月初旬の入荷を予定しているそうです. (9/29)</li>
+<li>10月10日(月)の講義は担当者出張のため休講となります. (10/3)</li>
+<li>教科書が入荷されたようです. (10/6)</li>
+<li>10月27日(木)の講義は担当者出張のため休講となります. (10/18)</li>
+<li>11月10日(木)に中間試験を実施します. (10/20)</li>
+<li>中間試験<a href="./lasp/test/prechukan_20161024.pdf">準備問題</a>を配布しました. <b>11月7日(月)の講義までに解いてくること</b>. (10/24)</li>
+<li>11月10日(木)の中間試験には, 学生証を必ず持参してください. (11/7)</li>
+<li><a href="./lasp/test/chukan_20161110.pdf">中間試験</a>を実施しました. 
+11/17に答案返却を予定しています. 平均点は73.2点で良く出来ていました. (11/13)</li>
+<li>12月12日(月)の講義は担当者体調不良のため休講となりました. (12/14)</li>
+<li>1月23日(月)に期末試験を実施します. (12/22)</li>
+<li>1月12日(木)の授業内で期末試験準<a href="./lasp/test/prekimatsu_20170116.pdf">準備問題</a>を配布の予定です. (12/26)</li>
+<li>1月16日(月)5限に6C-102教室で補講を行います. (1/12)</li>
+<li><a href="./lasp/test/kimatsu_20170123.pdf">期末試験</a>を実施しました. 平均は75.4点でした. 大変良く出来ていました. 1月26日(木)に答案返却を予定しています. (1/23)</li>
+<li>この授業は終了しました. (1/26)</li>
+<!--
+-->
+</ul>
+</td>
+<td>　</td>
+</tr>
+</table>
+<br>
+<span class="sbttl">授業の記録, または予定</span> 
+<span class="sg">配布物のダウンロード</span><br> 
+<br>
+<table 
+ style="width: 88%; text-align: left; margin-left: auto; margin-right: auto;"
+ border="0" cellpadding="1" cellspacing="0"> 
+ <tbody> 
+ <tr valign="top"> 
+  <td style="width: 120px; text-align: left; vertical-align: top;">
+   9月22日(木)
+  </td>
+  <td>行列とベクトル（1.1節）, 和とスカラー倍</td> 
+ </tr>
+ <tr valign="top"> 
+  <td>9月26日(月)</td> 
+  <td>行列の演算（1.2節）, 行列の積</td>
+ </tr>
+ <tr valign="top">
+  <td>9月29日(木)</td>
+  <td>行列の演算の演習, 行列と連立1次方程式（1.4節）
+   <span class="sg">
+   ( <a href="./lasp/enshu/lasp_20160929.pdf">演習問題</a> )
+   </span>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td>10月3日(月)</td>	
+  <td>基本変形と連立方程式(唯一解)（2.1節）
+  </td>	
+ </tr>
+ <tr valign="top">
+  <td>10月6日(木)</td>	
+  <td>行列の簡約化（2.2節）
+  </td>	
+ </tr>
+ <tr valign="top">
+  <td>10月10日(月)</td>	
+  <td>休講
+  </td>	
+ </tr>
+ <tr valign="top">
+  <td>10月13日(木)</td>
+  <td>連立1次方程式の解法（2.3節）
+   <span class="sg">
+   ( <a href="./lasp/enshu/lasp_20161013.pdf">演習問題</a> )
+   </span>
+  </td>	
+ </tr>
+ <tr valign="top">
+  <td>10月17日(月)</td>
+  <td>連立1次方程式の演習
+   <span class="sg">
+   ( <a href="./lasp/enshu/lasp_20161017.pdf">演習問題</a> )
+   </span>
+  </td>	
+ </tr>
+ <tr valign="top">
+  <td>10月20日(木)</td>
+  <td>正則行列と逆行列（2.4節）
+  </td>	
+ </tr>
+ <tr valign="top">
+  <td>10月24日(月)</td>
+  <td>逆行列の演習
+   <span class="sg">
+   ( <a href="./lasp/enshu/lasp_20161024.pdf">演習問題</a> )
+   </span>
+  </td>	
+ </tr>
+ <tr valign="top">
+  <td>10月27日(木)</td>
+  <td>休講
+  </td>	
+ </tr>
+ <tr valign="top">
+  <td>11月7日(月)</td>
+  <td>中間試験前演習
+   <span class="sg">
+   ( <a href="./lasp/test/prechukan_20161024.pdf">準備問題</a> |
+   <a href="./lasp/test/kaito_20161024.pdf">解答</a> )
+   </span>
+  </td>	
+ </tr>
+ <tr valign="top">
+  <td>11月10日(木)</td>
+  <td>中間試験
+   <span class="sg">
+   ( <a href="./lasp/test/chukan_20161110.pdf">問題</a> | 解答 )
+   </span>
+  </td>	
+ </tr>
+ <tr valign="top">
+  <td>11月14日(月)</td>
+  <td>2次と3次の行列式（行列式の導入）
+   <span class="sg">
+   ( <a href="./lasp/enshu/lasp_20161114.pdf">演習問題</a> )
+   </span>
+  </td>	
+ </tr>
+ <tr valign="top">
+  <td>11月17日(木)</td>
+  <td>行列式の性質（3.2節後半、3.3節）
+   <span class="sg">
+   ( <a href="./lasp/enshu/lasp_20161117.pdf">演習問題</a> )
+   </span>
+  </td>	
+ </tr>
+ <tr valign="top">
+  <td>11月21日(月)</td>
+  <td>行列式の定義（3.1節、3.2節前半）
+   <span class="sg">
+   ( <a href="./lasp/enshu/lasp_20161121.pdf">演習問題</a> )
+   </span>
+  </td>	
+ </tr>
+ <tr valign="top">
+  <td>11月24日(木)</td>
+  <td>行列式の余因子展開（3.4節前半）
+   <span class="sg">
+   ( <a href="./lasp/enshu/lasp_20161124.pdf">演習問題</a> )
+   </span>
+  </td>	
+ </tr>
+ <tr valign="top">
+  <td>11月28日(月)</td>
+  <td>行列の余因子行列と逆行列（3.4節後半）
+   <span class="sg">
+   ( <a href="./lasp/enshu/lasp_20161128.pdf">演習問題</a> )
+   </span>
+  </td>	
+ </tr>
+ <tr valign="top">
+  <td>12月1日(木)</td>
+  <td>行列式の演習（3.5節）
+   <span class="sg">
+   ( <a href="./lasp/enshu/lasp_20161201.pdf">演習問題</a> |
+   <a href="./lasp/enshu/ans_20161201.pdf">解答</a> )
+   </span>
+  </td>	
+ </tr>
+ <tr valign="top">
+  <td>12月5日(月)</td>
+  <td>ベクトル空間の定義（4.1節）
+   <span class="sg">
+   ( <a href="./lasp/enshu/lasp_20161205.pdf">演習問題</a> )
+   </span>
+  </td>	
+ </tr>
+ <tr valign="top">
+  <td>12月8日(木)</td>
+  <td>1次独立と1次従属（4.2節）
+   <span class="sg">
+   ( <a href="./lasp/enshu/lasp_20161208.pdf">演習問題</a> )
+   </span>
+  </td>	
+ </tr>
+ <tr valign="top">
+  <td>12月12日(月)</td>
+  <td>休講
+  </td>	
+ </tr>
+ <tr valign="top">
+  <td>12月15日(木)</td>
+  <td>ベクトル空間の基底と次元（4.4節）
+   <span class="sg">
+   ( <a href="./lasp/enshu/lasp_20161212.pdf">演習問題</a> )
+   </span>
+  </td>	
+ </tr>
+ <tr valign="top">
+  <td>12月19日(月)</td>
+  <td>（行列の）固有値と固有ベクトル（5.3節参照）
+   <span class="sg">
+   ( <a href="./lasp/enshu/lasp_20161219.pdf">演習問題</a> )
+   </span>
+  </td>	
+ </tr>
+ <tr valign="top">
+  <td>12月22日(木)</td>
+  <td>固有値と固有ベクトルの演習
+   <span class="sg">
+   ( <a href="./lasp/enshu/lasp_20161222.pdf">演習問題</a> )
+   </span>
+  </td>	
+ </tr>
+ <tr valign="top">
+  <td>12月26日(月)</td>
+  <td>行列の対角化（5.4節）
+   <span class="sg">
+   ( <a href="./lasp/enshu/lasp_20161226.pdf">演習問題</a> )
+   </span>
+  </td>	
+ </tr>
+ <tr valign="top">
+  <td>1月12日(木)</td>
+  <td>行列の対角化の演習
+   <span class="sg">
+   ( <a href="./lasp/enshu/lasp_20170112.pdf">演習問題</a> )
+   </span>
+  </td>	
+ </tr>
+ <tr valign="top">
+  <td>1月16日(月)</td>
+  <td>期末試験前演習
+   <span class="sg">
+   ( <a href="./lasp/test/prekimatsu_20170116.pdf">準備問題</a> |
+   <a href="./lasp/test/kaito_20170116.pdf">解答</a> )
+   </span>
+  </td>	
+ </tr>
+ <tr valign="top">
+  <td>1月23日(月)</td>
+  <td>期末試験
+   <span class="sg">
+   ( <a href="./lasp/test/kimatsu_20170123.pdf">問題</a> | 解答 )
+   </span>
+  </td>	
+ </tr>
+ <tr valign="top">
+  <td>1月26日(木)</td>
+  <td>線形代数を学んで
+  </td>	
+ </tr>
+ </tbody>
+</table>
+<hr>
+<!--
+第1回 行列とベクトル（1.1節）<br>
+第2回 行列の演算（1.2節）<br>
+第3回 行列の演算の演習<br>
+第4回 行列と連立1次方程式（1.4節）<br>
+第5回 基本変形（2.1節）<br>
+第6回 簡約な行列（2.2節）<br>
+第7回 連立1次方程式の解法（2.3節）<br>
+第8回 連立1次方程式の演習<br>
+第9回 正則行列と逆行列（2.4節）<br>
+第10回 逆行列の演習<br>
+第11回 中間試験、まとめ<br>
+第12回 2次と3次の行列式（行列式の導入）<br>
+第13回 行列式の定義（3.1節、3.2節前半）<br>
+第14回 行列式の性質（3.2節後半、3.3節）<br>
+第15回 行列式の演習１<br>
+第16回 行列式の余因子展開（3.4節前半）<br>
+第17回 行列の余因子行列と逆行列（3.4節後半）<br>
+第18回 行列式の演習２（3.5節）<br>
+第19回 ベクトル空間の定義（4.1節）<br>
+第20回 1次独立と1次従属（4.2節）<br>
+第21回 ベクトル空間の基底と次元（4.4節）<br>
+第22回 ベクトル空間の演習<br>
+第23回 線形写像の定義（5.1節前半）<br>
+第24回 線形写像の像と核（5.1節後半）<br>
+第25回 （行列の）固有値と固有ベクトル（5.3節参照）<br>
+第26回 固有値と固有ベクトルの演習<br>
+第27回 行列の対角化（5.4節）<br>
+第28回 行列の対角化の演習<br>
+第29回 本講義で学習した内容のまとめと整理<br>
+第30回 期末試験と解説、まとめ<br>
+<hr>
+-->
+<span class="sbttl">授業概要</span>
+<br>
+　理工系の基礎数学の一つである線形代数（行列と行列式）について学ぶ。<br>
+　まず初めに行列とその演算について学ぶ。要となるのは行列の積である。数の積と異なり、一般に行列の積は交換法則が成り立たないことに注意する。２番目に、行列の基本変形について学ぶ。任意の行列は、基本変形によりある標準形へと一意的に変換され（簡約化）、そのことにより行列の階数が定義される。さらに、拡大係数行列の基本変形が連立方程式の解を変えないことに着目し、基本変形を用いた連立方程式の解法（掃き出し法）を学ぶ。３番目に行列式と逆行列について学ぶ。与えられた（正方）行列がいつ逆行列をもつ（行列が正則となる）かという問題は、応用上大切であり、行列の階数や行列式の言葉で正則性が判定される。４番目にベクトル空間と線形写像の理論を学ぶ。中でも1次独立性と基底の概念は、連立方程式の解を定量的に扱う上で重要であり、高次元の空間に対し幾何学的な直感や説明を与える意味でも重要である。最後に固有値、固有ベクトル
+と行列の対角化について学ぶ。固有値問題は線形微分方程式の場合にも現れ、物理や、工学において基本的な問題であるのみならず、応用上も重要である。<br>
+　授業では、基本概念や基本定理を丁寧に説明し、例題や問題を通じてそれらの意味を正確に理解することをめざす。学生諸君は例題や問題を解くことによって理解を深めて欲しい。そのためには復習は欠かせないものとなる。講義の前にテキストとシラバスを見て、授業のポイントを押さえておくこと。
+<br><br>
+
+<span class="sbttl">教科書</span>
+<ul>
+<li>（教科書）「入門線形代数」三宅敏恒著 培風館</li>
+</ul>
+
+<span class="sbttl">評価方法</span>
+<br>
+中間試験4割, 期末試験6割. 到達度90％以上でS, 80％以上でA, 70％以上でB, 60％以上
+でC, 60％未満はEとします. ただし, 出席回数が授業回数の2/3に満たない場合は/とし
+ます. 
+<br><br>
+
+<span class="sbttl">質問への対応</span>
+<br>
+授業中や授業の前後が望ましいが, 教員室に在室中は随時応じます. 
+<br><br>
+
+<span class="sbttl">学生へのメッセージ</span>
+<br>
+数学的知識を講義のみで十分に養うことは難しいので, 理解を深めるためには, 予習・復習はもとより, 自ら演習問題に取り組み, じっくり考えることが最良かつ不可欠です.
+<br>
+<hr>
+<span class="sg"><a href="./lasp.html">top</a></span>
+</body>
+</html>

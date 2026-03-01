@@ -1,0 +1,363 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="ja">
+<head>
+<meta content="text/html; charset=UTF-8" http-equiv="content-type">
+<link rel="shortcut icon" href="../img/favicon.png" type="image/vnd.microsoft.icon" />
+<link rel="icon" href="../img/favicon.png" type="image/vnd.microsoft.icon" />
+<title>線形代数２（担当：那須）</title>
+<link rel=stylesheet type="text/css" href="../hstyle-d.css">
+</head>
+<body>
+<span class="sg"><a href="../index.html">home</a> &#155; <a href="../teaching.html">educational activities</a> &#155; <a href="../teaching.html">current teaching </a> &#155; 2016 Fall</span>
+<br><br>
+<span class="ttl">線形代数２</span> <span class="ttl-g">Linear Algebra 2</span><br>
+<span class="sg">2016年度 秋セメスター 月曜・木曜 2時限 (11:05-12:35) / 教室：6A-203教室 / 情報数理学科 2セメ対象</span>
+<br><br>
+担　当：那須 弘和 (nasu [at] tokai-u.jp)<br>
+教員室：18号館708室 情報数理学科 第2研究室<br>
+<hr>
+<span class="sbttl">連絡事項</span>
+<table width="600" border="0" class="box" cellpadding="3">
+<tr>
+<td>
+<ul>
+<li>この講義の仮ページを立ち上げました. (9/20)</li>
+<li>ガイダンスを行いました. (9/22)</li>
+<li>履修者が確定しました. 次回授業からは指定座席表に従って着席して下さい. 出欠確認を座席表に基づいて行います. (9/29)</li>
+<li>教科書が学内の書店にて品切れのようです. 書店によれば, 10月初旬の入荷を予定しているそうです. (9/29)</li>
+<li>10月10日(月)の講義は担当者出張のため休講となります. (10/3)</li>
+<li>教科書が入荷されたようです. (10/6)</li>
+<li>11月10日(木)に中間試験を実施します. (10/24)</li>
+<li>中間試験<a href="./la2/test/prechukan_20161027.pdf">準備問題</a>, および
+<a href="./la2/test/prechukan_20161107.pdf">準備問題(その２)</a>を配布しました. <b>11月7日(月)の講義までに解いてくること</b>. (10/24)</li>
+<li><a href="./la2/test/chukan_20161110.pdf">中間試験</a>を実施しました. 
+11/17に答案返却を予定しています. 平均点は61.2点でした. (11/13)</li>
+<li>12月12日(月)の講義は担当者体調不良のため休講となりました. (12/14)</li>
+<li>1月16日(月)に期末試験を実施します. (12/22)</li>
+<li>期末試験<a href="./la2/test/prekimatsu_20161226.pdf">準備問題１</a>を用いて演習を実施しました. (12/26)</li>
+<li>期末試験<a href="./la2/test/prekimatsu_20170112.pdf">準備問題２</a>を用いて演習を実施しました. (1/12)</li>
+<li><a href="./la2/test/kimatsu_20170116.pdf">期末試験</a>を実施しました. 平均点は70.5点でした. 良く出来ていました. 1/23に答案返却を予定しています. (1/19)</li>
+<li>答案を返却しました. 追試対象者は1/26(木)に追試を受験してください. (1/23)</li>
+<li>この授業は終了しました. (1/23)</li>
+<!--
+-->
+</ul>
+</td>
+<td></td>
+</tr>
+</table>
+<br>
+<span class="sbttl">授業の記録, または予定</span> 
+<span class="sg">配布物のダウンロード</span><br> 
+<br>
+<table 
+ style="width: 88%; text-align: left; margin-left: auto; margin-right: auto;"
+ border="0" cellpadding="1" cellspacing="0"> 
+ <tbody> 
+ <tr valign="top"> 
+  <td style="width: 120px; text-align: left; vertical-align: top;">
+   9月22日(木)
+  </td>
+  <td>ガイダンス, 線形代数１の復習（前半）</td> 
+ </tr>
+ <tr valign="top"> 
+  <td>9月26日(月)</td> 
+  <td>線形代数１の復習（後半）
+   <span class="sg">
+   ( <a href="./la2/minitest/ex_20160926.pdf">小テスト</a> |
+   <a href="./la2/minitest/ans_20160926.pdf">解答</a> )
+   </span>
+   </span>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td>9月29日(木)</td>
+  <td>ベクトル空間と部分空間
+   <span class="sg">
+   ( <a href="./la2/minitest/ex_20160929.pdf">小テスト</a> |
+   <a href="./la2/minitest/ans_20160929.pdf">解答</a> )
+   </span>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td>10月3日(月)</td>	
+  <td>ベクトル空間の演習
+   <span class="sg">
+   ( <a href="./la2/minitest/ex_20161003.pdf">小テスト</a> |
+   <a href="./la2/minitest/ans_20161003.pdf">解答</a> )
+   </span>
+  </td>	
+ </tr>
+ <tr valign="top">
+  <td>10月6日(木)</td>	
+  <td>１次独立と１次従属（定義）
+   <span class="sg">
+   ( <a href="./la2/minitest/ex_20161006.pdf">小テスト</a> |
+   <a href="./la2/minitest/ans_20161006.pdf">解答</a> )
+   </span>
+  </td>	
+ </tr>
+ <tr valign="top">
+  <td>10月10日(月)</td>	
+  <td>休講
+  </td>	
+ </tr>
+ <tr valign="top">
+  <td>10月13日(木)</td>
+  <td>１次独立性の演習
+   <span class="sg">
+   ( <a href="./la2/minitest/ex_20161013.pdf">小テスト</a> |
+   <a href="./la2/minitest/ans_20161013.pdf">解答</a> )
+   </span>
+  </td>	
+ </tr>
+ <tr valign="top">
+  <td>10月17日(月)</td>
+  <td>ベクトルの１次独立な最大個数と行列の階数
+   <span class="sg">
+   ( <a href="./la2/minitest/ex_20161017.pdf">小テスト</a> |
+   <a href="./la2/minitest/ans_20161017.pdf">解答</a> )
+   </span>
+  </td>	
+ </tr>
+ <tr valign="top">
+  <td>10月20日(木)</td>
+  <td>ベクトル空間の生成系と基底・次元
+   <span class="sg">
+   ( <a href="./la2/minitest/ex_20161020.pdf">小テスト</a> |
+   <a href="./la2/minitest/ans_20161020.pdf">解答</a> )
+   </span>
+  </td>	
+ </tr>
+ <tr valign="top">
+  <td>10月24日(月)</td>
+  <td>連立方程式の解空間の次元
+   <span class="sg">
+   ( <a href="./la2/minitest/ex_20161024.pdf">小テスト</a> |
+   <a href="./la2/minitest/ans_20161024.pdf">解答</a> )
+   </span>
+  </td>	
+ </tr>
+ <tr valign="top">
+  <td>10月27日(木)</td>
+  <td>解空間の演習
+   <span class="sg">
+   ( <a href="./la2/minitest/ex_20161027.pdf">小テスト</a> |
+   <a href="./la2/minitest/ans_20161027.pdf">解答</a> )
+   </span>
+  </td>	
+ </tr>
+ <tr valign="top">
+  <td>11月7日(月)</td>
+  <td>中間試験前演習
+   <span class="sg">
+   ( <a href="./la2/test/prechukan_20161027.pdf">準備問題その１</a> |
+   <a href="./la2/test/kaito_prechukan_2016.pdf">解答</a> |
+   <a href="./la2/test/prechukan_20161107.pdf">準備問題その２</a> )
+   </span>
+  </td>	
+ </tr>
+ <tr valign="top">
+  <td>11月10日(木)</td>
+  <td>中間試験
+   <span class="sg">
+   ( <a href="./la2/test/chukan_20161110.pdf">問題</a> |
+   解答</a> )
+   </span>
+  </td>	
+ </tr>
+ <tr valign="top">
+  <td>11月14日(月)</td>
+  <td>線形写像
+  </td>	
+ </tr>
+ <tr valign="top">
+  <td>11月17日(木)</td>
+  <td>線形写像の像と核
+   <span class="sg">
+   ( <a href="./la2/minitest/ex_20161117.pdf">小テスト</a> |
+   <a href="./la2/minitest/ans_20161117.pdf">解答</a> )
+   </span>
+  </td>	
+ </tr>
+ <tr valign="top">
+  <td>11月21日(月)</td>
+  <td>線形写像の表現行列
+   <span class="sg">
+   ( <a href="./la2/minitest/ex_20161121.pdf">小テスト</a> |
+   <a href="./la2/minitest/ans_20161121.pdf">解答</a> )
+   </span>
+  </td>	
+ </tr>
+ <tr valign="top">
+  <td>11月24日(木)</td>
+  <td>表現行列と基底の取り替え
+   <span class="sg">
+   ( <a href="./la2/minitest/ex_20161124.pdf">小テスト</a> |
+   <a href="./la2/minitest/ans_20161124.pdf">解答</a> )
+   </span>
+  </td>	
+ </tr>
+ <tr valign="top">
+  <td>11月28日(月)</td>
+  <td>固有値と固有ベクトルの導入（2次）
+   <span class="sg">
+   ( <a href="./la2/minitest/ex_20161128.pdf">小テスト</a> |
+   <a href="./la2/minitest/ans_20161128.pdf">解答</a> )
+   </span>
+  </td>	
+ </tr>
+ <tr valign="top">
+  <td>12月1日(木)</td>
+  <td>固有値と固有多項式
+   <span class="sg">
+   ( <a href="./la2/minitest/ex_20161201.pdf">小テスト</a> |
+   <a href="./la2/minitest/ans_20161201.pdf">解答</a> )
+   </span>
+  </td>	
+ </tr>
+ <tr valign="top">
+  <td>12月5日(月)</td>
+  <td>固有空間（行列に対する）
+   <span class="sg">
+   ( <a href="./la2/minitest/ex_20161205.pdf">小テスト</a> |
+   <a href="./la2/minitest/ans_20161205.pdf">解答</a> )
+   </span>
+  </td>	
+ </tr>
+ <tr valign="top">
+  <td>12月8日(木)</td>
+  <td>固有ベクトル・空間の計算（3次）
+   <span class="sg">
+   ( <a href="./la2/minitest/ex_20161208.pdf">小テスト</a> |
+   <a href="./la2/minitest/ans_20161208.pdf">解答</a> )
+   </span>
+  </td>	
+ </tr>
+ <tr valign="top">
+  <td>12月12日(月)</td>
+  <td>休講
+  </td>	
+ </tr>
+ <tr valign="top">
+  <td>12月15日(木)</td>
+  <td>行列の対角化
+   <span class="sg">
+   ( <a href="./la2/minitest/ex_20161212.pdf">小テスト</a> |
+   <a href="./la2/minitest/ans_20161212.pdf">解答</a> )
+   </span>
+  </td>	
+ </tr>
+ <tr valign="top">
+  <td>12月19日(月)</td>
+  <td>行列の対角化の応用（行列の冪乗）
+   <span class="sg">
+   ( <a href="./la2/minitest/ex_20161219.pdf">小テスト</a> |
+   <a href="./la2/minitest/ans_20161219.pdf">解答</a> )
+   </span>
+  </td>	
+ </tr>
+ <tr valign="top">
+  <td>12月22日(木)</td>
+  <td>行列の対角化の為の条件 
+   <span class="sg">
+   ( <a href="./la2/minitest/ex_20161222.pdf">小テスト</a> |
+   <a href="./la2/minitest/ans_20161222.pdf">解答</a> )
+   </span>
+  </td>	
+ </tr>
+ <tr valign="top">
+  <td>12月26日(月)</td>
+  <td>期末試験前演習１
+   <span class="sg">
+   ( <a href="./la2/minitest/ex_20161226.pdf">小テスト</a> |
+   <a href="./la2/minitest/ans_20161226.pdf">解答</a> |
+   <a href="./la2/test/prekimatsu_20161226.pdf">準備問題１</a> |
+   <a href="./la2/test/kaito_prekimatsu1.pdf">解答</a> )
+   </span>
+  </td>	
+ </tr>
+ <tr valign="top">
+  <td>1月12日(木)</td>
+  <td>期末試験前演習２
+   <span class="sg">
+   ( <a href="./la2/minitest/ex_20170112.pdf">小テスト</a> |
+   <a href="./la2/minitest/ans_20170112.pdf">解答</a> |
+   <a href="./la2/test/prekimatsu_20170112.pdf">準備問題２</a> |
+   <a href="./la2/test/kaito_prekimatsu2.pdf">解答</a> )
+   </span>
+  </td>	
+ </tr>
+ <tr valign="top">
+  <td>1月16日(月)</td>
+  <td>期末試験と解説、まとめ
+   <span class="sg">
+   ( <a href="./la2/test/kimatsu_20170116.pdf">問題</a> | 解答 )
+   </span>
+  </td>	
+ </tr>
+ <tr valign="top">
+  <td>1月23日(月)</td>
+  <td>行列の対角化の応用（数列）、答案返却
+   <span class="sg">
+   ( <a href="./la2/minitest/ex_20170123.pdf">小テスト</a> |
+   <a href="./la2/minitest/ans_20170123.pdf">解答</a> )
+   </span>
+  </td>	
+ </tr>
+ <tr valign="top">
+  <td>1月26日(木)</td>
+  <td>追試（対象者のみ）
+  </td>	
+ </tr>
+ </tbody>
+</table>
+<hr>
+<span class="sbttl">授業概要</span>
+<br>
+線形代数は, 自然科学の分野における最も基本的で有用な数学の一つです. 
+わかりやすくて論理的な計算手順が多く, しかも適度な計算力を必要とするため, 
+継続的な学習習慣を身に付けるとともに柔軟な思考の育成を行います. 
+また, 具体的な計算だけでなく背後にある線形空間を意識することにより, 
+抽象的な思考や, 大きな枠組みで物事を捉える訓練も行っていきます. 
+
+線形代数１を復習するとともに, その続きを履修します. 
+連立方程式の解法, 階数, 逆行列, 行列式などを簡単に復習した後, 
+ベクトル空間と線形写像について学び, 
+行列の固有値・固有ベクトル, 対角化などの計算方法を学びます. 
+<br>
+<br>
+<span class="sbttl">教科書・演習書</span>
+<br>
+
+<ul>
+<li>（教科書）「入門線形代数」三宅敏恒(著) 培風館</li>
+<li>（演習書）「スマート解法　線形代数演習帳」志村真帆呂(著) プレアデス出版</li>
+</ul>
+
+<span class="sbttl">評価方法</span>
+<br>
+成績は、原則として中間試験の結果（40%）と期末試験の結果（60%）によって総合的に評価します. 到達度90％以上でS, 80％以上でA, 70％以上でB, 60％以上でC, 60％未満はEとします. 試験を受験しない場合、または出席回数が2/3に満たない場合には「/」とします. 
+<br>
+<br>
+<span class="sbttl">授業の進め方</span>
+<br>
+毎回授業の始めに前回の授業の内容を復習し, 
+理解度をチェックする為に簡単な小テストを実施します. 
+小テストの答案の提出により出席を確認します. 
+<br>
+<br>
+<span class="sbttl">質問への対応</span>
+<br>
+授業中や授業の前後が望ましいですが, 教員室に在室中は随時応じます. 
+<br>
+<br>
+<span class="sbttl">学生へのメッセージ</span>
+<br>
+授業を受け身に聞くのではなく, 予習・復習をすること. 計算が正確に出来るよう
+自分で練習問題を多く解くことを心がけて下さい. 
+<br>
+<hr>
+<span class="sg"><a href="./la2.html">top</a></span>
+</body>
+</html>
