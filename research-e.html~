@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-<header class="site-header"><div class="container nav"><a class="brand" href="index-e.html">Hirokazu Nasu</a><button class="menu-toggle" type="button" aria-expanded="false">Menu</button><nav class="nav-links"><a href="research-e.html" aria-current="page">Research</a><a href="publications.html">Publications</a><a href="activities.html">Funding & Activities</a><a href="cv/cv_full.pdf">CV</a><a href="index.html">Japanese Website</a></nav></div></header>
+<header class="site-header"><div class="container nav"><a class="brand" href="index-e.html">Hirokazu Nasu</a><button class="menu-toggle" type="button" aria-expanded="false">Menu</button><nav class="nav-links"><a href="research-e.html" aria-current="page">Research</a><a href="publications.html">Publications</a><a href="activities.html">Funding & Activities</a><a href="cv/cv_full.pdf">CV</a><a href="teaching.html">Teaching (日本語)</a></nav></div></header>
 
 <main>
   <section class="page-hero"><div class="container"><div class="eyebrow">Research overview</div><h1>Hilbert schemes and deformation theory</h1><p>How do algebraic curves move? When does an infinitesimal motion extend to an actual family, and what can failure tell us about the geometry of the parameter space?</p></div></section>
