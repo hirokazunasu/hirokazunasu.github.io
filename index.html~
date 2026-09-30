@@ -55,10 +55,6 @@
 <span class="sg">Professor</span>
 <br>
 <br>
-<a href="./index-e.html">研究のページ(英語版)</a> <font color="#ff0000">←リニューアルしました(2026.9)</font> <br>
-<span class="sg"><a href="./index-e.html">Website on My Research (English page)</a></span>
-<br>
-<br>
 <br>
 <a name="contanct"></a>
 <table class="ttltt">
@@ -75,7 +71,10 @@
      <span class="sg">Office : 708, Building No.18, Kanagawa Shonan Campus</span></li>
  <li>電　話：0463-58-1211 (内線3387)<br>
      <span class="sg">Phone : +81-463-58-1211 (ex. 3387)</span></li>
- <li>E-mail : nasu [at] tokai.ac.jp </li>
+ <li>E-mail : nasu [at] tokai.ac.jp
+     ( <font color="#ff0000">2026年4月からnasu@tokai-u.jpは使用不可</font> )<br>
+     <span class="sg">(From April 2026, the email address nasu@tokai-u.jp will no longer be available for use.)</span>
+ </li>
 </ul>
 
 <a name="content"></a>
@@ -99,10 +98,10 @@
 
 <div style="text-align: right;">
 <span style="font-size: x-small;">
-更新日：2026年9月30日</span>
+更新日：2026年3月20日</span>
 <br>
 <span style="color: #808080; font-size: x-small;">
-Last modified: September 30, 2026</span>
+Last modified: March 20, 2026</span>
 </div>
 
 <script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
