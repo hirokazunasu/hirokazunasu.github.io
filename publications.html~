@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-<header class="site-header"><div class="container nav"><a class="brand" href="index-e.html">Hirokazu Nasu</a><button class="menu-toggle" type="button" aria-expanded="false">Menu</button><nav class="nav-links"><a href="research-e.html">Research</a><a href="publications.html" aria-current="page">Publications</a><a href="activities.html">Funding & Activities</a><a href="cv/cv_full.pdf">CV</a><a href="index.html">Japanese Website</a></nav></div></header>
+<header class="site-header"><div class="container nav"><a class="brand" href="index-e.html">Hirokazu Nasu</a><button class="menu-toggle" type="button" aria-expanded="false">Menu</button><nav class="nav-links"><a href="research-e.html">Research</a><a href="publications.html" aria-current="page">Publications</a><a href="activities.html">Funding & Activities</a><a href="cv/cv_full.pdf">CV</a><a href="index.html">Japanese website</a></nav></div></header>
 <main>
 <section class="page-hero"><div class="container"><div class="eyebrow">Research output</div><h1>Publications</h1><p>Peer-reviewed work on Hilbert schemes, deformation theory, obstructed curves, K3 surfaces, <br> del Pezzo surfaces, and Fano varieties.</p></div></section>
 <article class="content"><div class="container">
