@@ -124,7 +124,7 @@ img { max-width: 100%; display: block; }
 .portrait-wrap::before {
   content: "";
   position: absolute;
-  width: 65%; height: 65%;
+  width: 72%; height: 72%;
   right: -10%; bottom: -8%;
   border-radius: 42% 58% 50% 50%;
   background: var(--accent);
@@ -133,7 +133,7 @@ img { max-width: 100%; display: block; }
 .portrait {
   position: relative;
   z-index: 1;
-  width: min(100%, 340px);
+  width: min(100%, 390px);
   margin-left: auto;
   aspect-ratio: 4 / 5;
   object-fit: cover;
