@@ -1,0 +1,150 @@
+%%#! latex
+
+%%%%%%%%%%             Preamble                   %%%%%%%%%%
+
+\documentclass[10pt]{jarticle}
+\usepackage{amsfonts,amssymb,amsmath,amscd,amsthm,latexsym}
+\usepackage{graphicx}
+\usepackage{fancybox}
+\usepackage{okumacro}
+%\usepackage{hyperref}
+%\usepackage{showkeys}
+%\usepackage{fancybox,ascmac}
+%\usepackage{fancyhdr}
+\pagestyle{empty}
+
+%%%%%%%%%%             Layout                     %%%%%%%%%%
+
+\setlength{\topmargin}{-1cm}
+\setlength{\textheight}{25cm}
+\setlength{\textwidth}{16cm}
+%\setlength{\oddsidemargin}{0cm}
+%\setlength{\evensidemargin}{0cm}
+%\addtolength{\textwidth}{.815in}
+\addtolength{\oddsidemargin}{-2cm}
+\addtolength{\evensidemargin}{-2cm}
+
+%%%%%%%%%%           Definition, Theorem, etc.     %%%%%%%%%%
+
+\newtheorem{thm}{定理}
+\newtheorem{lem}[thm]{補題}
+\newtheorem{prop}[thm]{命題}
+\newtheorem{claim}[thm]{主張}
+\newtheorem{cor}[thm]{系}
+\newtheorem{prob}[thm]{問題}
+\newtheorem{conj}[thm]{予想}
+\theoremstyle{definition}
+\newtheorem{dfn}[thm]{定義} 
+\newtheorem{ex}[thm]{例}
+\newtheorem{reidai}[thm]{例題}
+\newtheorem{rmk}[thm]{注意}
+
+%\numberwithin{thm}{section}
+%\numberwithin{equation}{section}
+
+%%%%%%%%%%             Macro (by Nasu)           %%%%%%%%%%
+
+\newcommand{\Proof}{\noindent {\bf 証明)}\ \ }
+\newcommand{\Hom}{\operatorname{Hom}}
+\newcommand{\Ext}{\operatorname{Ext}}
+\newcommand{\Spec}{\operatorname{Spec}}
+\newcommand{\Proj}{\operatorname{Proj}}
+\newcommand{\ob}{\operatorname{ob}}
+\newcommand{\Hilb}{\operatorname{Hilb}}
+\newcommand{\red}{\operatorname{red}}
+\newcommand{\im}{\operatorname{im}}
+\newcommand{\Bs}{\operatorname{Bs}}
+\newcommand{\Jac}{\operatorname{Jac}}
+\newcommand{\Pic}{\operatorname{Pic}}
+\newcommand{\coker}{\operatorname{coker}}
+\newcommand{\Gr}{\operatorname{Gr}}
+\newcommand{\Bl}{\operatorname{Bl}}
+%\newcommand{\algeeq}{\stackrel{alg.}{\; \sim \;}}
+\newcommand{\Rat}{\operatorname{Rat}}
+\newcommand{\Exc}{\operatorname{Exc}}
+\newcommand{\car}{\operatorname{char}}
+\newcommand{\Aut}{\operatorname{Aut}}
+\newcommand{\End}{\operatorname{End}}
+\newcommand{\sat}{\operatorname{sat}}
+\newcommand{\pd}{\operatorname{dp}}
+\newcommand{\rank}{\operatorname{rank}}
+\newcommand{\Ann}{\operatorname{Ann}}
+
+\renewcommand{\theenumi}{\arabic{enumi}}
+\renewcommand{\theenumii}{\alph{enumii}}
+\renewcommand{\theenumiii}{\roman{enumiii}}
+\renewcommand{\labelenumi}{(\theenumi)}
+\renewcommand{\labelenumii}{(\theenumii)}
+\renewcommand{\labelenumiii}{[\theenumiii]}
+%\renewcommand{\baselinestretch}{1.2}
+%\renewcommand{\abstractname}{\sc Abstract}
+
+%%%%%%%%%%           Commutative diagram          %%%%%%%%%%
+
+% A litte smaller diagram than AMS CD envrionment
+
+\newcommand{\mapright}[1]{%
+\smash{\mathop{%
+\hbox to 1cm{\rightarrowfill}}\limits^{#1}}}
+\newcommand{\mapleft}[1]{%
+\smash{\mathop{%
+\hbox to 1cm{\leftarrowfill}}\limits^{#1}}}
+\newcommand{\mapdown}[1]{\Big\downarrow
+\llap{$\vcenter{\hbox{$\scriptstyle#1\,$}}$ }}
+\newcommand{\mapup}[1]{\Big\uparrow
+\rlap{$\vcenter{\hbox{$\scriptstyle#1$}}$ }}
+
+%%%%%%%%%%              Title                    %%%%%%%%%%
+
+\title{}
+\author{}
+\date{}
+
+%%%%%%%%%%            Text Start                 %%%%%%%%%%
+
+\begin{document}
+
+%\maketitle
+
+\begin{center}
+ {\bf \Huge 東海大学理学部数学・情報数理談話会}
+\end{center}
+
+\bigskip
+
+{\Large
+以下の要領において談話会を開催致します. 多数の方の御来聴を
+お待ち致しております. 
+
+\bigskip
+
+\noindent
+日時: 2026年5月12日(火) 16:00--17:00\\
+\smallskip
+会場: 東海大学湘南校舎18号館8階理学部ゼミ室3 (18-831)\\
+
+\medskip
+
+\noindent
+講演者: 
+Euisung Park (Department of Mathematics, Korea University)\\
+\smallskip
+タイトル: 
+Secant Rank and Syzygies of Projections of Elliptic Normal Curves\\
+
+\noindent
+アブストラクト:
+In this talk, we study the syzygies of projections of elliptic normal curves. This talk is based on joint work with Changho Han. Let
+$C \subset \mathbb{P}^{d-1}$ be an elliptic normal curve and let $C_q$ denote the projection of $C$ from a point $q$. A natural question is how the syzygetic properties of the projected curve depend on the position of the projection center.
+Using the geometry of secant varieties, we relate the Green--Lazarsfeld index of $C_q$ to the secant rank of $q$ with respect to $C$. In particular, we show that if $q$ lies in the $s$-th secant variety of $C$, then $\mathrm{index}(C_q) \leq s-3$, and equality holds for a general point in that secant variety.
+Our approach realizes projected elliptic curves as hyperplane sections of suitable elliptic ruled surface scrolls and studies their minimal free resolutions.
+
+\vskip 2cm
+
+\begin{flushright}
+  世話人: 那須 弘和\\
+  nasu@tokai.ac.jp
+\end{flushright}
+}
+\end{document}
+
