@@ -1,0 +1,102 @@
+%%#! latex
+
+%%%%%%%%%%             Preamble                   %%%%%%%%%%
+
+\documentclass[12pt]{jarticle}
+\usepackage{amsfonts,amssymb,amsmath,amscd,amsthm,latexsym}
+\usepackage{graphicx}
+\usepackage{fancybox}
+\usepackage{okumacro}
+%\usepackage{hyperref}
+%\usepackage{showkeys}
+%\usepackage{fancybox,ascmac}
+%\usepackage{fancyhdr}
+\pagestyle{empty}
+
+%%%%%%%%%%             Layout                     %%%%%%%%%%
+
+\setlength{\topmargin}{-1cm}
+\setlength{\textheight}{25cm}
+\setlength{\textwidth}{16cm}
+%\setlength{\oddsidemargin}{0cm}
+%\setlength{\evensidemargin}{0cm}
+%\addtolength{\textwidth}{.815in}
+\addtolength{\oddsidemargin}{-2cm}
+\addtolength{\evensidemargin}{-2cm}
+
+
+%%%%%%%%%%             Macro (by Nasu)           %%%%%%%%%%
+
+\renewcommand{\theenumi}{\arabic{enumi}}
+\renewcommand{\theenumii}{\alph{enumii}}
+\renewcommand{\theenumiii}{\roman{enumiii}}
+\renewcommand{\labelenumi}{(\theenumi)}
+\renewcommand{\labelenumii}{(\theenumii)}
+\renewcommand{\labelenumiii}{[\theenumiii]}
+%\renewcommand{\baselinestretch}{1.2}
+%\renewcommand{\abstractname}{\sc Abstract}
+
+%%%%%%%%%%           Commutative diagram          %%%%%%%%%%
+
+% A litte smaller diagram than AMS CD envrionment
+
+\newcommand{\mapright}[1]{%
+\smash{\mathop{%
+\hbox to 1cm{\rightarrowfill}}\limits^{#1}}}
+\newcommand{\mapleft}[1]{%
+\smash{\mathop{%
+\hbox to 1cm{\leftarrowfill}}\limits^{#1}}}
+\newcommand{\mapdown}[1]{\Big\downarrow
+\llap{$\vcenter{\hbox{$\scriptstyle#1\,$}}$ }}
+\newcommand{\mapup}[1]{\Big\uparrow
+\rlap{$\vcenter{\hbox{$\scriptstyle#1$}}$ }}
+
+%%%%%%%%%%              Title                    %%%%%%%%%%
+
+\title{}
+\author{}
+\date{}
+
+%%%%%%%%%%            Text Start                 %%%%%%%%%%
+
+\begin{document}
+
+%\maketitle
+
+\begin{center}
+ {\bf \Huge 東海大学理学部数学・情報数理談話会}
+\end{center}
+
+\bigskip
+
+{\Large
+以下の要領において談話会を開催致します. 多数の方の御来聴を
+お待ち致しております. 
+
+\bigskip
+
+\noindent
+日時: 2026年11月13日(金) 15:20--16:05\\
+\smallskip
+会場: 東海大学湘南校舎18号館{\bf 7階情報数理ゼミ室1 (18-701)}\\
+
+\medskip
+
+\noindent
+講演者: 
+板井昌典氏(東海大学理学部情報数理学科)\\
+\smallskip
+タイトル: Tsimerman の業績とモデル理論
+
+\noindent
+アブストラクト:
+
+\vskip 2cm
+
+\begin{flushright}
+  世話人: 那須 弘和\\
+  nasu@tokai.ac.jp
+\end{flushright}
+}
+\end{document}
+
